@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Day 3 – Tables and Forms</title>
+</head>
+<body>
+
+  <h1>Day 3 – Tables & Forms</h1>
+
+  <!-- Table Section -->
+  <section>
+    <h2>My Weekly Schedule</h2>
+    <table border="1" cellpadding="8" cellspacing="0">
+      <tr>
+        <th>Day</th>
+        <th>Activity</th>
+      </tr>
+      <tr>
+        <td>Monday</td>
+        <td>Coding Practice</td>
+      </tr>
+      <tr>
+        <td>Tuesday</td>
+        <td>Reading</td>
+      </tr>
+      <tr>
+        <td>Wednesday</td>
+        <td>Workout</td>
+      </tr>
+      <tr>
+        <td>Thursday</td>
+        <td>Music Practice</td>
+      </tr>
+      <tr>
+        <td>Friday</td>
+        <td>Project Work</td>
+      </tr>
+      <tr>
+        <td>Saturday</td>
+        <td>Friends & Family</td>
+      </tr>
+      <tr>
+        <td>Sunday</td>
+        <td>Rest & Relax</td>
+      </tr>
+    </table>
+  </section>
+
+  <hr>
+
+  <!-- Form Section -->
+  <section>
+    <h2>Contact Me</h2>
+    <form>
+      <!-- Name -->
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" placeholder="Enter your name">
+      <br><br>
+
+      <!-- Email -->
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" placeholder="Enter your email">
+      <br><br>
+
+      <!-- Gender -->
+      <label>Gender:</label><br>
+      <input type="radio" name="gender" value="male"> Male
+      <input type="radio" name="gender" value="female"> Female
+      <input type="radio" name="gender" value="other"> Other
+      <br><br>
+
+      <!-- Skills -->
+      <label>Skills:</label><br>
+      <input type="checkbox" name="skills" value="html"> HTML
+      <input type="checkbox" name="skills" value="css"> CSS
+      <input type="checkbox" name="skills" value="js"> JavaScript
+      <br><br>
+
+      <!-- City -->
+      <label for="city">City:</label><br>
+      <select id="city">
+        <option value="ny">New York</option>
+        <option value="la">Los Angeles</option>
+        <option value="ch">Chicago</option>
+        <option value="ld">London</option>
+      </select>
+      <br><br>
+
+      <!-- Message -->
+      <label for="msg">Message:</label><br>
+      <textarea id="msg" rows="4" cols="40" placeholder="Write your message here..."></textarea>
+      <br><br>
+
+      <!-- Submit -->
+      <input type="submit" value="Send">
+    </form>
+  </section>
+
+</body>
+</html>
