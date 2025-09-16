@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Day 10 - CSS Basics</title>
+
+  <!-- Internal CSS -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: darkblue;
+    }
+    p {
+      font-size: 16px;
+      color: #333;
+    }
+    .highlight {
+      background-color: yellow;
+      padding: 5px;
+    }
+  </style>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Inline CSS Example -->
+  <h1 style="color: green;">Day 10 - Introduction to CSS</h1>
+
+  <p>This is a normal paragraph styled with <b>internal CSS</b>.</p>
+
+  <p class="highlight">This paragraph uses a CSS class called <code>.highlight</code>.</p>
+
+  <p style="font-size:18px; color: red;">This paragraph uses <b>inline CSS</b> to make text red.</p>
+
+  <h2>External CSS Example</h2>
+  <p class="external-demo">If you create a <b>style.css</b> file, you can style this text externally.</p>
+
+</body>
+</html>
